@@ -1,0 +1,135 @@
+/* Reiniciar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    /* Estilo Menú */
+    html, body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+    line-height: 1.7em;
+    background: url(https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    }
+    
+    h1, h2, h3 {
+    padding-bottom: 5px;
+    }
+    
+    p {
+    margin: 10px 0;
+    }
+    /* Clases General */
+    .container {
+        margin:auto;
+        max-width: 1300px;
+        overflow: auto;
+        padding: 0 20px;
+    }
+
+    #navbar {
+        background-color: #ffffff;
+        color:#43C787;
+        overflow: auto;
+        border-bottom: 3px solid black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #navbar a{
+        color:#43C787;
+    }
+
+    #navbar h1{
+        float:left;
+        padding-top:20px;
+    }
+
+    #navbar ul {
+        list-style: none;
+        float: right;
+    }
+
+    #navbar ul li {
+        transform: translateY(50%);
+        float:left;
+    }
+
+    #navbar ul li a{
+        display:block;
+        padding:20px;
+        text-align:center;
+    }
+
+    #navbar ul li a:hover{
+        border-color: #43C787;
+        background: #43c787c7;
+        color:#ffffff;
+    }
+
+    #navbar .current{
+        border-color: #43c78754;
+        background: #43c7872f;
+    }
+
+    #body {
+        height: 950px;
+        width: 100%;
+    }
+
+    #body .body-content {
+        color:#43c787;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    #body .container{
+        width: 80%;
+        height: 100%;
+        background-color: #ffffffbb;
+    }
+
+    .body-content h1{
+        color:#7bb37b;
+        font-style: italic;
+        font-size: 50px;
+        -webkit-text-stroke: 1.5px black;
+    }
+
+    .titulos{
+        color:#ffffff;
+        font-size: 40px;
+        -webkit-text-stroke: 1.5px black;
+    }
+
+    .texto{
+        color:#ffffff
+    }
+
+    .btn{
+        display: inline-block;
+        font-size: 18px;
+        color:#fff;
+        background: #43C787;
+        padding: 13px 20px;
+        border:none;
+        cursor:pointer;
+      }
+    
+    .btn:hover{
+        background:#43c787;
+    }
+
+    #main-footer{
+        border-top: 1px solid black;
+        text-align: center;
+        background: #ffffff;
+        color: #43C787;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .clr{
+        clear:both;
+      }
